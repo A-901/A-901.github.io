@@ -8,6 +8,7 @@
 body {
      font-family: 'Playfair Display', serif; 
     }
+    
 /* Оформление header */
 .title {
     padding-top: 80px;
@@ -66,7 +67,7 @@ body {
 .note {
     display: inline-block;
     width: 420px;
-
+    
 }
 .p_live {
     display: block;
@@ -114,7 +115,8 @@ button {
     font-weight: 400;
     line-height: 24px;
     background-color: #ffffff;
-    /* margin: 30px 360px 70px 380px; */    
+    /* margin: 30px 360px 70px 380px; */
+    /* background-color: linear-gradient(to right, rgba(100%, 0%, 0%, 0), rgba(100%, 0%, 0%, 1);     */
 }
 button:hover {
     background: cyan;
