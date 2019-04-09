@@ -6,43 +6,55 @@
 }
 /* Оформление body */
 body {
-     background: #ffffff;
-     font-family: Playfair Display, serif; 
+     font-family: 'Playfair Display', serif; 
     }
-/* Оформление head */
+/* Оформление header */
+.title {
+    padding-top: 80px;
+    padding-bottom: 105px;
+}
+
 .title_item a{
+    display: block;
     font-size: 14px;
     font-weight: 400;
     text-decoration: unset;
     text-transform: uppercase;
     line-height: 24px;
-    width: 420px;
+    /* width: 420px; */
 }
-.title_a {
+.title_a:hover {
     color: #03a9f4;
+}
+.title_item li:last-child{
+    margin-right: 0px;
 }
 .title_item li {
     display: inline-block;
-    width: 130px;
+    /* width: 130px; */
     margin-right: 40px;
 }
 .title_item {
     text-align: center;
+    font-size: 0px;
 }
-.title_nav {
-    margin: 75px 315px 105px 315px;
-}
-/* Оформление main */
 
-main {
+/* Оформление main */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* main {
     margin: 0px 150px 0px 200px;
+} */
+.main_title {
+    /* display: inline-block; */
+    /* height: 480px; */
+    font-size: 0px;
+    padding-bottom: 70px;
 }
-section {
-    display: inline-block;
-    height: 480px;
-    width: 420px;
-}
-.note1, .note3, .note5 {
+/* .note1, .note3, .note5 {
     margin-right: 60px;
 }
 .note5, .note6 {
@@ -50,29 +62,49 @@ section {
 }
 .nite1, .note2, .note3, .note4 {
     margin-bottom: 140px;
+} */
+.note {
+    display: inline-block;
+    width: 420px;
+
 }
-.innote span {
+.p_live {
     display: block;
     color: #b4ad9e;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    font-weight: 100
+    font-weight: 100;
+    margin: 0px;
+    margin-bottom: 30px;
 }
-.innote h2 {
+.m_title {
     color: #626262;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
     font-weight: 400;
+    margin: 0px;
+    margin-bottom: 45px;
 }
-.innote p {
+.m_text {
     color: #626262;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24px;    
+}
+.image {
+    margin-bottom: 35px;
+}
+.note:nth-child(odd) {
+    margin-right: 60px;
+}
+.note {
+    margin-bottom: 135px;
 }
 button {
+    display: block;
+    margin: 0 auto;
     height: 58px;
     width: 158px;
     border-width: 1px;
@@ -82,5 +114,8 @@ button {
     font-weight: 400;
     line-height: 24px;
     background-color: #ffffff;
-    margin: 30px 360px 70px 380px;
+    /* margin: 30px 360px 70px 380px; */    
+}
+button:hover {
+    background: cyan;
 }
