@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0, auto;
+}
+/* .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+/* Оформление header */
+.logo, .navi_menu, .navi, header {
+    font-size: 0px;
+}
+.logo {
+    float: left; 
+    padding-left: 30px;
+    padding-top: 35px;
+    font-size: 30px; color: #555252;
+    font-weight: 300;    
+    line-height: 32px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+/* .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+.logo::first-letter{
+    font-weight: 800;
+}
+.logo:hover::first-letter {
+    
+    color: #1abc9c;
+
+}
+.navi {
+    float: right;
+    list-style: none;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.navi_item  {
+    float: left;
+    padding-top: 45px;
+    padding-right: 35px;
+    font-size: 14px;
+    line-height: 11px; 
+    font-family: 'Open Sans'; color: #0f0101;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+       
+
+}
+ .hov:hover {
+    color: #1abc9c;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Оформление main */
+h2 {
+    font-size: 48px;
+    font-family: 'Roboto';
+    color: #515151;
+    font-weight: 800;
+    padding: 110px 310px 0px 360px;
+    text-transform: uppercase;
+}
+.line {
+    width: 170px;
+    height: 7px;
+    background-color: #1abc9c;   
+    margin: 30px 515px 90px 515px;
+}
