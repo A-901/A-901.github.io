@@ -6,18 +6,18 @@
     box-sizing: border-box;
 }
 .container {
-    width: 1200px;
-    margin: 0, auto;
+    width: 1110px;
+    margin: 0 auto;
 }
 
 /* Оформление header */
-.logo, .navi_menu, .navi, header {
-    font-size: 0px;
-}
+/* .logo, .navi_menu, .navi, header {
+    font-size: 0px; */
+/* } */
 .logo {
     float: left; 
-    padding-left: 30px;
-    padding-top: 35px;
+    /* padding-left: 30px;
+    padding-top: 35px;  */
     font-size: 30px; color: #555252;
     font-weight: 300;    
     line-height: 32px;
@@ -45,16 +45,19 @@
 
 .navi_item  {
     float: left;
-    padding-top: 45px;
-    padding-right: 35px;
+    /* padding-top: 45px; */
+     padding-right: 35px; /*без этого меню слипнется */
     font-size: 14px;
     line-height: 11px; 
     font-family: 'Open Sans'; color: #0f0101;
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
-       
-
+    
+}
+header {
+    padding-top: 30px;
+   
 }
  .hov:hover {
     color: #1abc9c;
@@ -82,7 +85,7 @@ article, ul, li, p {
     font-family: 'Roboto';
     color: #515151;
     font-weight: 800;
-    padding: 110px 310px 0px 360px;
+    padding: 0px 305px 0px 305px;
     text-transform: uppercase;
     text-align: center; 
 }
@@ -90,7 +93,7 @@ article, ul, li, p {
     width: 170px;
     height: 7px;
     background-color: #1abc9c;   
-    margin: 30px 510px 90px 540px;
+    margin: 30px 0px 90px 470px;
     
 
 }
@@ -128,42 +131,43 @@ article, ul, li, p {
     width: 255px;
     
 }
-.box:nth-child(4n+1) {
-    margin-left: 30px;
+ .box:nth-child(6) {
+    margin-right: 0px;
+    margin-bottom: 30px;
 }
+.box:nth-child(10) {
+    margin-right: 0px; 
+}
+
+
 .item_name, .price, a {
     display: inline-block;
 }
-.box:nth-child(4n) {
-    margin-right: 0px;
-}
-.box:nth-child(n+5) {
-    margin-bottom: 105px;
 
-}
-.box:nth-child(-n+4) {
-    margin-top: 0px;    
-}
 .box:hover .item_name a  {
     background-color: #1abc9c;
 }
 .box:hover .price a {
     background-color: #7fd9c7;
+    
+}
+.goods {
+    padding-bottom: 110px;
 }
                 /* LATEST NEWS */
 .news {
     float: left;
-    margin-right: 30px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    /* margin-bottom: 10px; */
     width: 350px;
 
 }
-.news:nth-child(1) {
-    margin-left: 30px;
-}
-.news:nth-child(3) {
+/* .news:nth-child(1) {
+    margin-left: 30px; 
+} */
+/* .news:nth-child(1) {
     margin-right: 0px;
-}
+} */
 .news_text_main {
     font-size: 18px;
     font-family: 'Open Sans'; 
@@ -185,14 +189,20 @@ article, ul, li, p {
     background-color: #4ec6ab;
 
 }
-button {
+.news a {
     width: 161px;
     height: 53px;
     border-radius: 4px;
     background-color: #4ec6ab;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
 
+}
+.news_bord {
+    padding-bottom: 30px;
 }
