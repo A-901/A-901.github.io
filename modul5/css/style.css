@@ -73,13 +73,13 @@ header {
     position: relative;
     width: 1110px;
     height: 600px;
-    /* margin-bottom: 100px; */
+    
 }
-.slider-img {
-    position: absolute;    
+.slider {
+    
     background-image: url(../img/SliderBG.png);
     background-repeat: no-repeat;    
-    z-index: 1;    
+    
 }
 .butt {
     position: absolute;
@@ -111,12 +111,7 @@ header {
     list-style: none;
    
 }
-.slider-img {
-    height: 600px;
-    /* object-fit: cover; */
-    width: 100%;
-    
-}
+
 /* Slider Text */
 .slider-text {
     z-index: 3;
@@ -260,8 +255,8 @@ header {
     margin-right: 8px;
 }
 .like {    
-    top: 90px;
-    left: 35px;
+    /* top: 90px;
+    left: 35px; */
     width: 50px;
     height: 50px;
     border: 0;    
@@ -269,8 +264,8 @@ header {
     opacity: 0.55;
 }
 .sher {    
-    top: 90px;
-    left: 92px;
+    /* top: 90px;
+    left: 92px; */
     width: 50px;
     height: 50px;
     border: 0;    
@@ -278,8 +273,7 @@ header {
     opacity: 0.55;
 }
 .time {    
-    top: 90px;
-    left: 150px;
+    
     width: 50px;
     height: 50px;
     border: 0;    
@@ -287,8 +281,8 @@ header {
     opacity: 0.55;
 }
 .cart {    
-    top: 147px;
-    left: 35px;
+    /* top: 147px;
+    left: 35px; */
     width: 166px;
     height: 51px;
     border: 0;    
