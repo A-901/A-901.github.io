@@ -34,18 +34,22 @@
 .menu {
     display: flex;
     list-style-type: none;
-    width: 490px;
+    min-width: 490px;
     justify-content: space-between;
     position: relative;
 
 }
-
+.menu a {
+    display: block;
+}
 .menu-item a{
     color: #fce38a;
    
 }
-.menu-item a:hover {
+.menu a:hover {
     color: #f38181;
+    transition-duration: 200ms;
+    transition-timing-function: linear; 
     
 }
 .menu-item::after{
@@ -58,7 +62,8 @@
     margin-top: 10px;
 }
 .menu-item:hover::after {
-    display: block;   
+    display: block;
+      
     
 }
 
@@ -271,6 +276,7 @@
     height: 470px;
     /* box-shadow: 10px 10px 5px 0px rgb(149,225,211); */
     z-index: 1;
+    
        
          
 }
