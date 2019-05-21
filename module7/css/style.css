@@ -29,10 +29,7 @@
     width: 940px;
     margin: 0 auto;
 }
-.container-big {
-    width: 1400px;
-    margin: 0 auto;
-}
+
                 /* HEADER */
 .heder-container {
     padding-top: 45px;
@@ -67,7 +64,7 @@
 .li-itrm {
     list-style: none;
 }
-.li-itrm:hover .href-item{
+.href-item:hover {
     color: #fed136;
 }
                 /* SERVIS */
