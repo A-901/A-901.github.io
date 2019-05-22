@@ -16,8 +16,7 @@
 /* } */
 .logo {
     float: left; 
-    /* padding-left: 30px;
-    padding-top: 35px;  */
+    
     font-size: 30px; color: #555252;
     font-weight: 300;    
     line-height: 32px;
@@ -38,22 +37,28 @@
 }
 .navi {
     float: right;
-    list-style: none;
-    width: 550px;
+    list-style: none;    
     margin: 0 auto;
+
 }
 
-.navi_item  {
+.navi_menu li  {
     float: left;
-    /* padding-top: 45px; */
-     padding-right: 35px; /*без этого меню слипнется */
+    
+    margin-right: 35px; 
     font-size: 14px;
     line-height: 11px; 
     font-family: 'Open Sans'; color: #0f0101;
     font-weight: 800;
-    text-transform: uppercase;
-    text-decoration: none;
+    text-transform: uppercase;    
+    list-style: none;
     
+}
+.navi_menu a {
+    text-decoration: none;
+}
+.navi_menu li:nth-child(6) {
+    margin: 0;
 }
 header {
     padding-top: 30px;
@@ -77,18 +82,17 @@ header {
     display: table;
     clear: both;
 }
-article, ul, li, p {
-    font-size: 0px;
-}
 
 .title {
     font-size: 48px;
     font-family: 'Roboto';
     color: #515151;
     font-weight: 800;
-    padding: 0px 305px 0px 305px;
+    
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 90px;
+    
      
 }
 .title::after {
@@ -97,24 +101,29 @@ article, ul, li, p {
     width: 170px;
     height: 7px;
     background-color: #1abc9c;   
-    margin: 30px 0px 90px 160px ;    
+    margin: 0 auto;
+    margin-top: 30px;    
 
 }
 
 
-.item_name a {    
+.item_name  {  
+    font-family: "Roboto" sans-serif;  
     width: 200px;
     height: 40px;
     background-color: #323232;
     color: #ffffff;
+    font-family: "Roboto" sans-serif;
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 10px;
-    font-weight: 800;
+    font-weight: 700;
     padding-left: 10px;
 }
-.price a {
+    
+.price  {
+    font-family: "Roboto" sans-serif;
     font-size: 18px;  
     width: 55px;
     height: 40px;
@@ -125,7 +134,7 @@ article, ul, li, p {
     padding-left: 10px;
     padding-bottom: 10px;
     text-decoration: none;
-    font-weight: 800;  
+    font-weight: 700;  
 
    
 }
@@ -144,14 +153,17 @@ article, ul, li, p {
 }
 
 
-.item_name, .price, a {
-    display: inline-block;
+
+.price, .item_name  {
+    float: left;
+    
 }
 
-.box:hover .item_name a  {
+
+.box:hover .item_name   {
     background-color: #1abc9c;
 }
-.box:hover .price a {
+.box:hover .price  {
     background-color: #7fd9c7;
     
 }
@@ -162,22 +174,20 @@ article, ul, li, p {
 .news {
     float: left;
     margin-right: 20px;
-    /* margin-bottom: 10px; */
+    
     width: 350px;
 
 }
-/* .news:nth-child(1) {
-    margin-left: 30px; 
-} */
-/* .news:nth-child(1) {
-    margin-right: 0px;
-} */
+
+.last {
+    margin-right: 0;
+}
 .news_text_main {
     font-size: 18px;
     font-family: 'Open Sans'; 
     color: #555252;
     font-weight: 600;
-    margin-bottom: 16px;
+    
 
 }
 .news_text {
@@ -200,14 +210,14 @@ article, ul, li, p {
     width: 161px;
     height: 53px;
     border-radius: 4px;
-    background-color: #4ec6ab;
-    /* margin-bottom: 30px; */
+    background-color: #4ec6ab;    
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
-    padding-top: 20px;
+    text-align: center;    
     text-decoration: none;
+    display: block;
+    line-height: 53px;
 
 }
 .news_bord {
