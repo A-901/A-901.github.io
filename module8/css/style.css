@@ -75,6 +75,9 @@
     text-align: center;
 
 }
+.heder-text-main-secondPart {
+    margin-bottom: 35px;
+}
 .heder-text {
     font-family: "roboto-300";
     font-size: 18px;
@@ -201,13 +204,15 @@
         min-width: 190px;
         justify-content: space-between;
     }
-   
+    .heder-text-main-secondPart {
+        margin-bottom: 0px;
+    }
     .heder-text {
         padding-top: 20px;
     }
-    /* .header-button-box {
+    .header-button-box {
         padding-top: 20px;
-    } */
+    }
                 /* НАСТРОЙКА MAIN */
     .main-box {
         padding-top: 70px;
